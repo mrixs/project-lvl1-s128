@@ -1,11 +1,14 @@
 {
   "name": "mrixs-brain-games",
-  "version": "0.0.1",
+  "version": "0.0.2a",
   "devDependencies": {
     "babel-cli": "*",
     "babel-core": "*",
     "babel-preset-env": "*",
     "babel-preset-stage-0": "*"
+  },
+  "dependencies": {
+    "readline-sync": "*"
   },
   "scripts": {
     "babel-node": "babel-node",
