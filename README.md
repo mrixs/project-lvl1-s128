@@ -1,5 +1,8 @@
 # Brain Games
 Console mini games
+
+[![Code Climate](https://codeclimate.com/github/mrixs/project-lvl1-s128.png)](https://codeclimate.com/github/mrixs/project-lvl1-s128) [![Build Status](https://travis-ci.org/mrixs/project-lvl1-s128.svg?branch=master)](https://travis-ci.org/mrixs/project-lvl1-s128)
+
 ## For user
 ### How to install
  - install Node.js https://nodejs.org/
