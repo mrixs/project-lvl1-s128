@@ -1,5 +1,5 @@
 import { cons } from 'hexlet-pairs';
-import getRandomNumber from '../util';
+import getRandomNumber from '../utils';
 import newGame from '..';
 
 const description = 'Balance the given number.';

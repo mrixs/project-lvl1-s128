@@ -1,7 +1,6 @@
 import { cons } from 'hexlet-pairs';
-import getRandomNumber from '../util';
+import getRandomNumber from '../utils';
 import newGame from '..';
-
 
 const description = 'What number is missing in this progression?';
 
@@ -11,19 +10,17 @@ const getQuestionAndAnswer = () => {
   const step = getRandomNumber(0, 10);
   const skippedElementPosition = getRandomNumber(1, progressionLength);
   let answer;
-  const iterProgression = (currentElement, currentElementPosition) => {
-    if (currentElementPosition > progressionLength) {
-      return '';
-    }
-    const nextElement = currentElement + step;
-    const nextElementPosition = currentElementPosition + 1;
-    if (currentElementPosition === skippedElementPosition) {
+  let currentElement = firstElement;
+  let question = '';
+  for (let i = 1; i <= progressionLength; i += 1) {
+    if (i === skippedElementPosition) {
+      question += '.. ';
       answer = currentElement;
-      return (`.. ${iterProgression(nextElement, nextElementPosition)}`);
+    } else {
+      question += `${currentElement} `;
     }
-    return (`${currentElement} ${iterProgression(nextElement, nextElementPosition)}`);
-  };
-  const question = iterProgression(firstElement, 1);
+    currentElement += step;
+  }
   return cons(question, String(answer));
 };
 

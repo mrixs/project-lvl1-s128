@@ -1,6 +1,6 @@
 {
   "name": "mrixs-brain-games",
-  "version": "0.0.9a",
+  "version": "0.0.9b",
   "description": "Brain Games. Console mini-games",
   "devDependencies": {
     "babel-cli": "*",
