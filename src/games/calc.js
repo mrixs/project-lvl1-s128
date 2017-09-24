@@ -1,8 +1,8 @@
 import { cons } from 'hexlet-pairs';
-import { getRandomNumber } from '../util';
-import newGame from '../game-control';
+import getRandomNumber from '../util';
+import newGame from '..';
 
-const rules = 'What is the result of the expression?';
+const description = 'What is the result of the expression?';
 const getQuestionAndAnswer = () => {
   const firstNumber = getRandomNumber(0, 10);
   const secondNumber = getRandomNumber(0, 10);
@@ -16,4 +16,4 @@ const getQuestionAndAnswer = () => {
   }
 };
 
-export default () => newGame(rules, getQuestionAndAnswer);
+export default () => newGame(description, getQuestionAndAnswer);

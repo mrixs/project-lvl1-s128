@@ -1,8 +1,8 @@
 import { cons } from 'hexlet-pairs';
-import { getRandomNumber } from '../util';
-import newGame from '../game-control';
+import getRandomNumber from '../util';
+import newGame from '..';
 
-const rules = 'Answer "yes" if number even otherwise answer "no".';
+const description = 'Answer "yes" if number even otherwise answer "no".';
 const minNumber = 0;
 const maxNumber = 100;
 const getQuestionAndAnswer = () => {
@@ -11,4 +11,4 @@ const getQuestionAndAnswer = () => {
   return cons(question, answer);
 };
 
-export default () => newGame(rules, getQuestionAndAnswer);
+export default () => newGame(description, getQuestionAndAnswer);
