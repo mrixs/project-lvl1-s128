@@ -1,6 +1,6 @@
 {
   "name": "mrixs-brain-games",
-  "version": "0.0.7c",
+  "version": "0.0.8b",
   "description": "Brain Games. Console mini-games",
   "devDependencies": {
     "babel-cli": "*",
@@ -27,6 +27,7 @@
     "brain-even": "dist/bin/brain-even.js",
     "brain-calc": "dist/bin/brain-calc.js",
     "brain-gcd": "dist/bin/brain-gcd.js",
-    "brain-balance": "dist/bin/brain-balance.js"
+    "brain-balance": "dist/bin/brain-balance.js",
+    "brain-progression": "dist/bin/brain-progression.js"
   }
 }

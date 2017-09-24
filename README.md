@@ -25,3 +25,6 @@ Console mini games
  - Balance game: you need to make number which smallest digit is smaller then the largest digit not more then by 1
 
   command `brain-balance`
+  - Progression game: you need to find the hidden element of the arithmetic progression
+
+  command `brain-progression`
