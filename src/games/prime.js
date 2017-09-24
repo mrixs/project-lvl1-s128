@@ -3,7 +3,7 @@ import getRandomNumber from '../utils';
 import newGame from '..';
 
 const description = 'Answer "yes" if number prime otherwise answer "no".';
-const minNumber = 0;
+const minNumber = 2;
 const maxNumber = 100;
 const isPrime = (number) => {
   const largestDivider = Math.floor(Math.sqrt(number));
