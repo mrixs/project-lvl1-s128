@@ -21,14 +21,10 @@ const startGame = (roundNumber, questionAndAnswer) => {
 
 export default (description, questionAndAnswerFunction) => {
   console.log('Welcome to the Brain Games!');
-  if (description !== undefined) {
-    console.log(`${description}\n`);
-  }
+  console.log(`${description}\n`);
   const playerName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${playerName}!\n`);
-  if (questionAndAnswerFunction !== undefined) {
-    const gameResult = startGame(0, questionAndAnswerFunction);
-    const finalMessage = gameResult ? `Congratulations, ${playerName}!` : `Let's try again, ${playerName}`;
-    console.log(finalMessage);
-  }
+  const gameResult = startGame(0, questionAndAnswerFunction);
+  const finalMessage = gameResult ? `Congratulations, ${playerName}!` : `Let's try again, ${playerName}`;
+  console.log(finalMessage);
 };

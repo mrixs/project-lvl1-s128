@@ -6,7 +6,8 @@ const description = 'Balance the given number.';
 
 const balanceNumber = (num) => {
   let sumOfDigits = 0;
-  for (let i = 0; i < String(num).length; i += 1) {
+  const numberLength = String(num).length;
+  for (let i = 0; i < numberLength; i += 1) {
     sumOfDigits += Number(String(num)[i]);
   }
   const iterBalance = (sumOfNumbers, numberOfDigits, balancedNumber) => {
@@ -19,7 +20,7 @@ const balanceNumber = (num) => {
     const newBalancedNumber = String(balancedNumber) + String(digit);
     return iterBalance(newSumOfNumbers, newNumberOfDigits, newBalancedNumber);
   };
-  return iterBalance(sumOfDigits, String(num).length, '');
+  return iterBalance(sumOfDigits, numberLength, '');
 };
 
 const getQuestionAndAnswer = () => {
