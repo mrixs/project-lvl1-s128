@@ -13,7 +13,7 @@ Console mini games
  [![asciicast](https://asciinema.org/a/2ETnmpvUqdt3WwadwE9d9wTE8.png)](https://asciinema.org/a/2ETnmpvUqdt3WwadwE9d9wTE8)
 
 ## Available games:
- - Even game: answer if number if even or not
+ - Even game: answer if number is even or not
 
   command `brain-even`
  - Calculator game: you need to calculate the expression
@@ -28,3 +28,6 @@ Console mini games
   - Progression game: you need to find the hidden element of the arithmetic progression
 
   command `brain-progression`
+  - Prime game: answer if number is prime or not
+
+  command `brain-prime`
