@@ -9,10 +9,19 @@ Console mini games
  - run `npm install mrixs-brain-games`
 ### How to run
  - run `brain-games`
-## For developer
-### How to install
- - install Node.js https://nodejs.org/
- - clone this repository
- - run `make install`
-### How to run
- - run `make start`
+### Demonstration
+ [![asciicast](https://asciinema.org/a/2ETnmpvUqdt3WwadwE9d9wTE8.png)](https://asciinema.org/a/2ETnmpvUqdt3WwadwE9d9wTE8)
+
+## Available games:
+ - Even game: answer if number if even or not
+
+  command `brain-even`
+ - Calculator game: you need to calculate the expression
+
+  command `brain-calc`
+ - Greatest common divisor game: you need to find greatest common divisor
+
+  command `brain-gcd`
+ - Balance game: you need to make number which smallest digit is smaller then the largest digit not more then by 1
+
+  command `brain-balance`
