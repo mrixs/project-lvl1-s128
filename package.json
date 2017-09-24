@@ -1,6 +1,6 @@
 {
   "name": "mrixs-brain-games",
-  "version": "0.0.4d",
+  "version": "0.0.5a",
   "description": "Brain Games. Console mini-games",
   "devDependencies": {
     "babel-cli": "*",
@@ -13,7 +13,8 @@
     "eslint-plugin-import": "*"
   },
   "dependencies": {
-    "readline-sync": "*"
+    "readline-sync": "*",
+    "hexlet-pairs": "*"
   },
   "scripts": {
     "babel-node": "babel-node",
@@ -23,6 +24,7 @@
   },
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js"
   }
 }
